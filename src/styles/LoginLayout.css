@@ -1,0 +1,33 @@
+.login-page {
+  display: flex;
+  height: 100vh;
+  background: #fff;
+}
+
+.login-illustration {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #6c2bd9;
+}
+
+.login-illustration img {
+  max-width: 90%;
+  height: auto;
+}
+
+.login-card-wrapper {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-card {
+  width: 360px;
+  padding: 30px;
+  border-radius: 12px;
+  background: #ffffff;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
